@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 228" width="840" height="228" role="img" aria-label="guipimentel30 video streaming builder profile card">
+  <defs>
+    <radialGradient id="lampWashLight" cx="22%" cy="62%" r="65%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.065" />
+      <stop offset="55%" stop-color="#d97706" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#fcf9f2" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="amberGlowLight" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.18" />
+      <stop offset="62%" stop-color="#d97706" stop-opacity="0.055" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbGradLight" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.38" />
+      <stop offset="58%" stop-color="#f59e0b" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.06" />
+    </radialGradient>
+    <linearGradient id="progressGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a7e70" stop-opacity="0.32" />
+      <stop offset="75%" stop-color="#d97706" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#b45309" stop-opacity="1" />
+    </linearGradient>
+    <style>
+      .mono {
+        font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      }
+      .card-bg { fill: #fcf9f2; stroke: #e5dccb; stroke-width: 1.25; }
+      .header-bg { fill: #f5efe3; }
+      .divider { stroke: #e5dccb; stroke-width: 1; }
+      .muted { fill: #786d60; font-size: 12px; }
+      .key { fill: #8a7e70; font-size: 13px; }
+      .val { fill: #2b2520; font-size: 13px; }
+      .accent { fill: #b45309; }
+      .dim-tag { fill: #9c8f80; font-size: 9.5px; letter-spacing: 1.8px; }
+      .live-dot {
+        fill: #d97706;
+        animation: pulse 3.6s ease-in-out infinite;
+      }
+      .ember-1 { animation: pulse 4.4s ease-in-out 0.4s infinite; }
+      .ember-2 { animation: pulse 5.2s ease-in-out 1.4s infinite; }
+      .ember-3 { animation: pulse 4.8s ease-in-out 2.2s infinite; }
+      .orbit {
+        transform-box: view-box;
+        transform-origin: 735px 115px;
+        animation: spin 48s linear infinite;
+      }
+      .eq {
+        transform-box: view-box;
+      }
+      .eq1 { animation: eq 2.2s ease-in-out infinite; transform-origin: 786.2px 24px; }
+      .eq2 { animation: eq 1.9s ease-in-out 0.3s infinite; transform-origin: 792.2px 24px; }
+      .eq3 { animation: eq 2.5s ease-in-out 0.6s infinite; transform-origin: 798.2px 24px; }
+      .eq4 { animation: eq 2.0s ease-in-out 0.2s infinite; transform-origin: 804.2px 24px; }
+      .eq5 { animation: eq 2.4s ease-in-out 0.5s infinite; transform-origin: 810.2px 24px; }
+      .playhead {
+        transform-box: view-box;
+        animation: scrub 18s linear infinite;
+      }
+      .progress-fill {
+        transform-box: view-box;
+        transform-origin: 28px 205.5px;
+        animation: fillBar 18s linear infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.95; }
+        50% { opacity: 0.28; }
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes eq {
+        0%, 100% { transform: scaleY(0.35); opacity: 0.45; }
+        50% { transform: scaleY(0.92); opacity: 0.9; }
+      }
+      @keyframes scrub {
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(520px); }
+      }
+      @keyframes fillBar {
+        0% { transform: scaleX(0.02); }
+        100% { transform: scaleX(1); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .live-dot, .ember-1, .ember-2, .ember-3, .orbit, .eq1, .eq2, .eq3, .eq4, .eq5, .playhead, .progress-fill {
+          animation: none !important;
+        }
+        .progress-fill { transform: scaleX(0.45); }
+        .playhead { transform: translateX(234px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="1" y="1" width="838" height="226" rx="14" class="card-bg" />
+  <rect x="2" y="40" width="836" height="186" rx="13" fill="url(#lampWashLight)" />
+  <path d="M 15 1 H 825 A 14 14 0 0 1 839 15 V 40 H 1 V 15 A 14 14 0 0 1 15 1 Z" class="header-bg" />
+  <line x1="1" y1="40" x2="839" y2="40" class="divider" />
+
+  <!-- Top Stream Bar -->
+  <circle cx="26" cy="20.5" r="7" fill="#d97706" opacity="0.14" class="live-dot" />
+  <circle cx="26" cy="20.5" r="3.6" class="live-dot" />
+  <text x="41" y="24.5" class="mono muted" letter-spacing="0.4">
+    <tspan class="accent" font-weight="600">STREAM</tspan>
+    <tspan fill="#b8aa99"> // </tspan>
+    <tspan fill="#2b2520">guipimentel30</tspan>
+  </text>
+
+  <text x="772" y="24.5" text-anchor="end" class="mono muted" font-size="11">
+    <tspan fill="#8a7e70">23.98 fps</tspan>
+    <tspan fill="#cfc3b2"> · </tspan>
+    <tspan fill="#8a7e70">1080p</tspan>
+    <tspan fill="#cfc3b2"> · </tspan>
+    <tspan fill="#5c5248">chill</tspan>
+  </text>
+
+  <!-- Minimalist Equalizer Bars -->
+  <rect x="785" y="14" width="2.4" height="11" rx="1.2" fill="#a69a8a" class="eq eq1" />
+  <rect x="791" y="14" width="2.4" height="11" rx="1.2" fill="#d97706" class="eq eq2" />
+  <rect x="797" y="14" width="2.4" height="11" rx="1.2" fill="#a69a8a" class="eq eq3" />
+  <rect x="803" y="14" width="2.4" height="11" rx="1.2" fill="#8a7e70" class="eq eq4" />
+  <rect x="809" y="14" width="2.4" height="11" rx="1.2" fill="#5c5248" class="eq eq5" />
+
+  <!-- Spec Block (Left) -->
+  <text x="28" y="75" class="mono key">whoami</text>
+  <text x="118" y="75" class="mono val">guilherme pimentel <tspan fill="#786d60">(@guipimentel30)</tspan></text>
+
+  <text x="28" y="99" class="mono key">role</text>
+  <text x="118" y="99" class="mono val">builder <tspan fill="#b8aa99">·</tspan> <tspan fill="#544a40">cs @ uff</tspan></text>
+
+  <text x="28" y="123" class="mono key">now</text>
+  <text x="118" y="123" class="mono val"><tspan class="accent" font-weight="600">video streaming</tspan> <tspan fill="#b8aa99">·</tspan> backend systems</text>
+
+  <text x="28" y="147" class="mono key">core</text>
+  <text x="118" y="147" class="mono val">go <tspan fill="#b8aa99">·</tspan> python <tspan fill="#b8aa99">·</tspan> c</text>
+
+  <text x="28" y="171" class="mono key">focus</text>
+  <text x="118" y="171" class="mono val" fill="#63584d">building and breaking things</text>
+
+  <!-- Soft Dotted Vertical Divider -->
+  <line x1="646" y1="58" x2="646" y2="180" stroke="#ddd2bf" stroke-width="1.2" stroke-dasharray="1 6" stroke-linecap="round" />
+
+  <!-- Right Emblem: Warm 4-Star Sphere -->
+  <circle cx="735" cy="115" r="58" fill="url(#amberGlowLight)" />
+  <circle cx="735" cy="115" r="49" fill="none" stroke="#d9cfbe" stroke-width="1.1" stroke-dasharray="3 7" stroke-linecap="round" class="orbit" />
+  <circle cx="735" cy="115" r="35" fill="none" stroke="#e5dccb" stroke-width="1" />
+  <circle cx="735" cy="115" r="24" fill="url(#orbGradLight)" stroke="#d97706" stroke-opacity="0.52" stroke-width="1.2" />
+
+  <!-- Subtle Floating Warm Embers -->
+  <circle cx="690" cy="82" r="1.4" fill="#d97706" class="ember-1" />
+  <circle cx="782" cy="90" r="1.2" fill="#b45309" class="ember-2" />
+  <circle cx="776" cy="152" r="1.5" fill="#d97706" class="ember-3" />
+
+  <!-- Subtle 4 stars inside orb -->
+  <polygon points="735,100 736.3,103.8 740.3,103.8 737.1,106.1 738.3,109.9 735,107.6 731.7,109.9 732.9,106.1 729.7,103.8 733.7,103.8" fill="#d97706" opacity="0.9" />
+  <polygon points="723,112 724.1,115.2 727.5,115.2 724.7,117.2 725.8,120.4 723,118.4 720.2,120.4 721.3,117.2 718.5,115.2 721.9,115.2" fill="#d97706" opacity="0.85" />
+  <polygon points="747,112 748.1,115.2 751.5,115.2 748.7,117.2 749.8,120.4 747,118.4 744.2,120.4 745.3,117.2 742.5,115.2 745.9,115.2" fill="#d97706" opacity="0.85" />
+  <polygon points="735,121 736.1,124.2 739.5,124.2 736.7,126.2 737.8,129.4 735,127.4 732.2,129.4 733.3,126.2 730.5,124.2 733.9,124.2" fill="#d97706" opacity="0.9" />
+
+  <text x="735" y="185" text-anchor="middle" class="mono dim-tag">CH.04 // STREAM</text>
+
+  <!-- Bottom Video Scrubber Bar -->
+  <rect x="28" y="204" width="706" height="3" rx="1.5" fill="#ece4d6" />
+  <rect x="28" y="204" width="590" height="3" rx="1.5" fill="#dcd1be" />
+  <rect x="28" y="204" width="520" height="3" rx="1.5" fill="url(#progressGradLight)" class="progress-fill" />
+  <g class="playhead">
+    <circle cx="28" cy="205.5" r="6" fill="#d97706" opacity="0.20" />
+    <circle cx="28" cy="205.5" r="3.4" fill="#d97706" />
+  </g>
+  <text x="812" y="209" text-anchor="end" class="mono" font-size="10.5" fill="#8a7e70">00:24 / ∞</text>
+</svg>
