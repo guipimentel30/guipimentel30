@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./assets/kid-goku.gif" width="220" alt="kid goku" />
-  <h3>Guilherme Pimentel</h3>
+  <br />
   <sub><i>"the country? the skies? you can have them."</i></sub>
 </div>
 
