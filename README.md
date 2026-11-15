@@ -6,7 +6,7 @@
 
 ## Engineering Focus
 
-**Builder** and CS undergrad at **UFF**, focused on **video streaming** and distributed backend systems.
+Working on **video streaming** and distributed backend systems at **Globo**.
 
 - **Video Streaming** · Delivery, packaging, and playback workflows across `HLS`, `DASH`, `MSS`, `DRM`, and `FFmpeg`
 - **Backend & Distributed Systems** · Services in **Go**, message queues (`RabbitMQ`), `WebSockets`, and systems design
