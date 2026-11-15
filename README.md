@@ -1,30 +1,10 @@
 <div align="center">
-
-<img src="./assets/kid-goku.gif" width="220" alt="kid goku" />
-
-<br /><br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stream-hud-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/stream-hud-light.svg" />
-  <img src="./assets/stream-hud-dark.svg" width="100%" alt="guipimentel30 stream hud" />
-</picture>
-
-<br />
-
-<sub><i>"the country? the skies? you can have them."</i></sub>
-
+  <img src="./assets/kid-goku.gif" width="220" alt="kid goku" />
+  <h3>Guilherme Pimentel</h3>
+  <sub><i>"the country? the skies? you can have them."</i></sub>
 </div>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-divider-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-divider-light.svg" />
-    <img src="./assets/timeline-divider-dark.svg" width="60%" alt="" />
-  </picture>
-</p>
-
-### `// engineering focus`
+## Engineering Focus
 
 **Builder** and CS undergrad at **UFF**, focused on **video streaming** and distributed backend systems.
 
@@ -33,7 +13,7 @@
 - **Cloud & Observability** · Container orchestration (`Kubernetes`, `Tsuru`), cloud infrastructure, and telemetry (`Prometheus`, `Grafana`)
 - **Developer Tooling** · Local-first markdown systems and agent workflows
 
-### `// projects`
+## Projects
 
 | Project | Overview | Stack |
 | :--- | :--- | :--- |
@@ -42,7 +22,7 @@
 | [**`Haskell`**](https://github.com/guipimentel30/Haskell) | Algorithmic search and formal verification exploring the Knight's Tour problem | `Haskell` `Lean` |
 | [**`Create-Hack`**](https://github.com/guipimentel30/Create-Hack) | End-to-end web application prototyped and shipped under hackathon constraints | `TypeScript` |
 
-### `// tech stack`
+## Tech Stack
 
 ```yaml
 languages     : go · python · c
@@ -52,7 +32,7 @@ observability : prometheus · grafana
 exploring     : java · spring boot · react · webgpu · haskell · lean
 ```
 
-### `// off-screen`
+## Off-screen
 
 `reading` · philosophy & christianity  
 `tinkering` · building and breaking things  
